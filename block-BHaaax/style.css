@@ -1,0 +1,14 @@
+header {
+    background-color: brown;
+    text-align: center;
+}
+.size {
+    font-size: 60px;
+    text-align: left;
+}
+a {
+    display: inline-block;
+}
+h1 {
+    font-size: 60px;
+}
