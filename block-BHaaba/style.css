@@ -1,3 +1,37 @@
-header {
-    background-color: aqua;
+.header {
+    background-color: blueviolet;
+   height: 72px;
+   line-height: 72px;
+}
+.brand {
+    float: left;
+    padding-left: 60px;
+}
+.nav {
+    float: right;
+    padding-right: 20px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+.nav a {
+    font-size: 24px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section {
+    padding: 60px 0;
+    background-color: #efefef;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.col {
+    float: left;
+    width: 30%;
 }
